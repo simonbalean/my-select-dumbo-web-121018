@@ -1,14 +1,14 @@
-def my_select(collection)
+def my_select(array)
 
 
   i = 0
-  new_collection = []
+  new_array = []
   
-  while i < collection.size
-    new_collection << yield(collection[i])
+  while i < array.size
+    new_array << yield(array[i])
     i = i + 1 
   end
   
-  new_collection
+  new_array
   
 end
