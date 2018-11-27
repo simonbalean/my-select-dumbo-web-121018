@@ -5,6 +5,7 @@ def my_select(array)
   new_array = []
   
   while i < array.size
+    if 
     new_array << yield(array[i])
     i = i + 1 
   end
